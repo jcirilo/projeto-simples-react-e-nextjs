@@ -2,7 +2,6 @@ import Header from '../src/components/Header';
 import Clock from '../src/components/Clock';
 import Counter from '../src/components/Counter';
 import Range from '../src/components/Range';
-import Footer from '../src/components/Footer';
 
 export default function App() {
     return (
@@ -27,7 +26,6 @@ export default function App() {
                         <Clock />
                         <br/>
                     </main>
-                    <Footer />
             </div>
         </div>
     )
